@@ -4,12 +4,36 @@
     box-sizing: border-box;
     font-family: Open Sans;
 }
+/* sheard style */
+.bg-primary{
+    background-color: rgb(255, 248, 243);;
+}
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+    }
+/* sheard style */
+
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
     width: 100%;
     height: 647px;
+    margin: 0 auto;
 }
 
 nav{
@@ -28,7 +52,7 @@ letter-spacing: 0%;
 
 .logo span{
  color: rgb(253, 110, 10);
-}
+} 
 li{
 list-style: none;
 
@@ -43,19 +67,7 @@ li a{
     letter-spacing: 0%;
 }
 
-.btn-primary{
-width: 150px;
-height: 64px;
-border-radius: 5px;
-background: rgb(253, 110, 10);
-color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0%;
-border: none;
-cursor: pointer;
-}
+
 ul{
     display: flex;
     justify-content: center;
@@ -98,3 +110,33 @@ ul{
     height: 523px;
     width:50% ;
 }
+/* about section css here */
+.about{
+    margin-top:130px;
+    text-align: center;
+    padding: 130px 150px ;
+}
+.about .about-tittle{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.about .about-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+.about-item p{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+/* about section css here */
