@@ -134,6 +134,12 @@ ul{
 }
 .about-item p{
     color: rgb(117, 117, 117);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.about-item h4{
+    color: rgb(117, 117, 117);
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
