@@ -132,6 +132,12 @@ ul{
     letter-spacing: 0%;
     margin-bottom: 30px;
 }
+.about-item-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
 .about-item p{
     color: rgb(117, 117, 117);
     font-size: 18px;
